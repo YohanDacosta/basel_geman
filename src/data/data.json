@@ -330,13 +330,13 @@
       "id": 28,
       "name": "Deutsch für Mütter und Väter von Schulkindern (vormals „Ich lerne Deutsch fürs Kind“)",
       "school": "K5",
-      "level": ["a1", "a2", "b1", "b2", "c1"],
-      "level_description": null,
-      "registration_deadline": null,
+      "level": ["a1", "a2", "b1", "b2"],
+      "level_description": "-",
+      "registration_deadline": "Bis eine Woche vor Kursbeginn",
       "duration_course": "August und Januar",
       "date": "27.01.2025 - 27.06.2025",
       "price": "1 x pro Woche 2.5 Lektionen = CHF 150",
-      "lessons": null
+      "lessons": "-"
     },
     "course_2": {
       "id": 29,
@@ -344,7 +344,7 @@
       "school": "K5",
       "level": ["alpha"],
       "level_description": "Alpha",
-      "registration_deadline": null,
+      "registration_deadline": "Bis eine Woche vor Kursbeginn",
       "duration_course": "An zwei Nachmittagen in der Woche, Dienstag und Donnerstag, 14:00 – 15:30 Uhr",
       "date": "25.03.2025 - 19.06.2025",
       "price": "CHF 50",

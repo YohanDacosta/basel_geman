@@ -37,7 +37,7 @@ const MenuBar = () => {
             name="courses"
             id="courses"
             className="flex-1 border rounded-full px-4 py-[0.4rem]"
-            placeholder="Seach by name"
+            placeholder="Suchen nach Name"
             onChange={handleOnChange}
           />
         </div>
