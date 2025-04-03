@@ -27,8 +27,8 @@ const filterReducer = (state, action) => {
     case "FILTER_COURSES":
       return {
         ...state,
-        [action.payload.id]: {
-          ...state[action.payload.id],
+        [action.payload.id.split("_")[0]]: {
+          ...state[action.payload.id.split("_")[0]],
           [action.payload.value]: action.payload.checked,
         },
       };

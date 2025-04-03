@@ -31,12 +31,16 @@ const Card = ({ course = null }) => {
           <strong className="font-semibold text-xs">Ratenpreis:</strong>{" "}
           <p className="font-mono text-sm">{course.lessons}</p>
         </div>
-        <div className="flex items-center space-x-2">
-          <strong className="font-semibold text-xs">Anmeldeschluss:</strong>{" "}
-          <p className="font-mono text-sm rounded-full bg-red-300 px-4 py-1">
-            {course.registration_deadline}
-          </p>
-        </div>
+        {course.registration_deadline !== "" ? (
+          <div className="flex items-center space-x-2">
+            <strong className="font-semibold text-xs">Anmeldeschluss:</strong>{" "}
+            <p className="font-mono text-sm rounded-full bg-red-300 px-4 py-1">
+              {course.registration_deadline}
+            </p>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

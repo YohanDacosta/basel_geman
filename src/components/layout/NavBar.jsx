@@ -11,7 +11,7 @@ const MenuBar = () => {
 
   return (
     <header className="flex flex-col mb-4">
-      <div className="flex justify-between px-6 pt-6">
+      <div className="flex space-x-4 md:space-x-0 md:justify-between px-6 pt-6">
         <div className="flex">
           <a className="flex space-x-2 items-center" href="#">
             <svg
@@ -31,7 +31,7 @@ const MenuBar = () => {
           </a>
         </div>
 
-        <div className="flex w-1/2">
+        <div className="flex w-full md:w-1/2">
           <input
             type="search"
             name="courses"
@@ -40,43 +40,6 @@ const MenuBar = () => {
             placeholder="Suchen nach Name"
             onChange={handleOnChange}
           />
-        </div>
-
-        <div className="flex lg:hidden">
-          <button
-            className="inline-flex items-center justify-center p-1 rounded-md text-gray-400 focus:outline-none focus:bg-violet-400 focus:text-white hover:text-white hover:bg-violet-400 hover:transition-colors hover:duration-700 hover:ease-in-out] hover:cursor-pointer"
-            aria-label="Main menu"
-            aria-expanded="false"
-          >
-            <svg
-              className="block h-8 w-8"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              ></path>
-            </svg>
-            <svg
-              className="hidden h-6 w-6"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M6 18L18 6M6 6l12 12"
-              ></path>
-            </svg>
-          </button>
         </div>
       </div>
     </header>

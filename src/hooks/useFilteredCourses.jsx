@@ -38,7 +38,7 @@ const filteredCourses = ({ courses, filters, search }) => {
 
   if (search.search) {
     filtered = filtered.filter((course) => {
-      return course.name.toLowerCase().includes(search.search);
+      return course.name.toLowerCase().includes(search.search.toLowerCase());
     });
   }
 
