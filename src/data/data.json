@@ -12,18 +12,6 @@
       "price": "CHF 206.00 - 1030.00",
       "lessons": "80 x 45 min."
     },
-    "course_2": {
-      "id": 2,
-      "name": "Deutsch Intensiv",
-      "school": "ECAP",
-      "level": ["a1", "a2", "b1", "b2", "c1"],
-      "level_description": "A1, A2, B1, B2, C1",
-      "registration_deadline": "14.02.2025",
-      "duration_course": "Montag - Freitag, 08.30 - 10.00 Uhr oder 10.30 - 12.00 Uhr",
-      "date": "03.03.2025 - 29.04.2025",
-      "price": "CHF 206.00 - 1030.00",
-      "lessons": "80 x 45 min."
-    },
     "course_3": {
       "id": 3,
       "name": "Deutsch Intensiv",
@@ -59,18 +47,6 @@
       "date": "20.10.2025 - 12.12.2025",
       "price": "CHF 206.00 - 1030.00",
       "lessons": "80 x 45 min."
-    },
-    "course_6": {
-      "id": 6,
-      "name": "Deutsch Kompakt",
-      "school": "ECAP",
-      "level": ["a1", "a2", "b1", "b2"],
-      "level_description": "A1, A2, B1, B2",
-      "registration_deadline": "26.03.2025",
-      "duration_course": "Montag - Freitag, 08.30 - 12.00 Uhr",
-      "date": "07.04.2025 - 23.06.2025",
-      "price": "CHF 310.00 - 3100.00",
-      "lessons": "200 x 45 min."
     },
     "course_7": {
       "id": 7,
@@ -216,18 +192,6 @@
       "price": "CHF 182.00 - 910.00",
       "lessons": "80 x 45 min."
     },
-    "course_19": {
-      "id": 19,
-      "name": "Module Basisbildung",
-      "school": "ECAP",
-      "level": ["a1", "a2", "b1", "b2"],
-      "level_description": "A1-B2",
-      "registration_deadline": "26.03.2025",
-      "duration_course": "1 x Woche, 13.00 - 15.30 Uhr",
-      "date": "07.04.2025 - 23.06.2025",
-      "price": "CHF 60.00 - 600.00",
-      "lessons": "30 x 45 min."
-    },
     "course_20": {
       "id": 20,
       "name": "Module Basisbildung",
@@ -337,18 +301,6 @@
       "date": "27.01.2025 - 27.06.2025",
       "price": "1 x pro Woche 2.5 Lektionen = CHF 150",
       "lessons": "-"
-    },
-    "course_2": {
-      "id": 29,
-      "name": "Alpha und Konversation",
-      "school": "K5",
-      "level": ["alpha"],
-      "level_description": "Alpha",
-      "registration_deadline": "Bis eine Woche vor Kursbeginn",
-      "duration_course": "An zwei Nachmittagen in der Woche, Dienstag und Donnerstag, 14:00 – 15:30 Uhr",
-      "date": "25.03.2025 - 19.06.2025",
-      "price": "CHF 50",
-      "lessons": "10 Wochen, 40 Lektionen"
     },
     "course_3": {
       "id": 30,
@@ -856,126 +808,6 @@
     }
   },
   "academia": {
-    "course_1": {
-      "id": 72,
-      "name": "Aufbaukurs – Deutsch A1 – Präsenzkurs",
-      "school": "Academia",
-      "level": ["a1"],
-      "level_description": "A1",
-      "registration_deadline": "",
-      "duration_course": "Montag und Mittwoch 18:00 - 19:30",
-      "date": "17.03.2025 - 11.08.2025",
-      "price": "CHF 2'160.00 zzgl. Lehrmittelkosten",
-      "lessons": "80 x 45 min."
-    },
-    "course_2": {
-      "id": 73,
-      "name": "Aufbaukurs – Deutsch B1 – Präsenzkurs",
-      "school": "Academia",
-      "level": ["b1"],
-      "level_description": "B1",
-      "registration_deadline": "",
-      "duration_course": "Dienstag und Donnerstag 10:15 – 11:45 Uhr",
-      "date": "18.03.2025 - 14.08.2025",
-      "price": "CHF 2'160.00 zzgl. Lehrmittelkosten",
-      "lessons": "80 x 45 min."
-    },
-    "course_3": {
-      "id": 74,
-      "name": "Aufbaukurs – Deutsch A2.2 – Präsenzkurs",
-      "school": "Academia",
-      "level": ["a2"],
-      "level_description": "A2.2",
-      "registration_deadline": "",
-      "duration_course": "Samstag 09:00 - 12:30 Uhr",
-      "date": "22.03.2025 - 07.06.2025",
-      "price": "CHF 1'080.00 zzgl. Lehrmittelkosten",
-      "lessons": "40 x 45 min."
-    },
-    "course_4": {
-      "id": 75,
-      "name": "Aufbaukurs – Deutsch A1 – Präsenzkurs",
-      "school": "Academia",
-      "level": ["a1"],
-      "level_description": "A1",
-      "registration_deadline": "",
-      "duration_course": "Samstag 09:00 - 12:30",
-      "date": "22.03.2025 - 16.08.2025",
-      "price": "CHF 2'160.00 zzgl. Lehrmittelkosten",
-      "lessons": "80 x 45 min."
-    },
-    "course_5": {
-      "id": 76,
-      "name": "Zertifikatskurs – Deutsch B1 – Präsenzkurs",
-      "school": "Academia",
-      "level": ["b1"],
-      "level_description": "B1",
-      "registration_deadline": "",
-      "duration_course": "Montag bis Freitag, 10:15 - 11:45 Uhr oder 13:30 - 15:00 Uhr",
-      "date": "24.03.2025 - 25.07.2025",
-      "price": "CHF 3'720.00 zzgl. Lehrmittelkosten",
-      "lessons": "160 x 45 min."
-    },
-    "course_6": {
-      "id": 77,
-      "name": "Aufbaukurs – Deutsch A1.2 – Präsenzkurs",
-      "school": "Academia",
-      "level": ["a1"],
-      "level_description": "A1.2",
-      "registration_deadline": "",
-      "duration_course": "Montag und Mittwoch 18:00 - 19:30 Uhr",
-      "date": "24.03.2025 - 04.06.2025",
-      "price": "CHF 1'080.00 zzgl. Lehrmittelkosten",
-      "lessons": "40 x 45 min."
-    },
-    "course_7": {
-      "id": 78,
-      "name": "Aufbaukurs – Deutsch A1 – Präsenzkurs",
-      "school": "Academia",
-      "level": ["a1"],
-      "level_description": "A1",
-      "registration_deadline": "",
-      "duration_course": "Dienstag und Donnerstag, 08:30 - 10:00 Uhr",
-      "date": "25.03.2025 - 21.08.2025",
-      "price": "CHF 2'160.00 zzgl. Lehrmittelkosten",
-      "lessons": "80 x 45 min."
-    },
-    "course_8": {
-      "id": 79,
-      "name": "Aufbaukurs – Deutsch A2.2 – Präsenzkurs",
-      "school": "Academia",
-      "level": ["a2"],
-      "level_description": "A2.2",
-      "registration_deadline": "",
-      "duration_course": "Dienstag und Donnerstag 18:00 - 19:30 Uhr",
-      "date": "25.03.2025 - 12.06.2025",
-      "price": "CHF 1'080.00 zzgl. Lehrmittelkosten",
-      "lessons": "40 x 45 min."
-    },
-    "course_9": {
-      "id": 80,
-      "name": "Aufbaukurs – Deutsch B2.2 – Präsenzkurs",
-      "school": "Academia",
-      "level": ["b2"],
-      "level_description": "B2.2",
-      "registration_deadline": "",
-      "duration_course": "Dienstag und Donnerstag 18:00 - 19:30 Uhr",
-      "date": "25.03.2025 - 21.08.2025",
-      "price": "CHF 1'920.00 zzgl. Lehrmittelkosten",
-      "lessons": "80 x 45 min."
-    },
-    "course_10": {
-      "id": 81,
-      "name": "Aufbaukurs – Deutsch A1.2 – Präsenzkurs",
-      "school": "Academia",
-      "level": ["a1"],
-      "level_description": "A1.2",
-      "registration_deadline": "",
-      "duration_course": "Samstag 09:00 - 12:30",
-      "date": "29.03.2025 - 14.06.2025",
-      "price": "CHF 1'080.00 zzgl. Lehrmittelkosten",
-      "lessons": "40 x 45 min."
-    },
     "course_11": {
       "id": 82,
       "name": "Zertifikatskurs – Deutsch C1 – Präsenzkurs",

@@ -1,5 +1,6 @@
-import MenuBar from "./NavBar";
-import SideBar from "./SideBar";
 import Main from "./Main";
+import Footer from "./Footer";
+import MenuBar from "./NavBar";
+import FilterBar from "./FilterBar";
 
-export { MenuBar, SideBar, Main };
+export { MenuBar, FilterBar, Main, Footer };
